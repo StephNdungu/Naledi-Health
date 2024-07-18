@@ -1,0 +1,32 @@
+{
+  "clinic_hours": [
+    {
+      "id": 1,
+      "title": "Grace",
+      "days": "Monday",
+      "spec": "Gynaecology",
+      "timeSlot": "2 pm"
+    },
+    {
+      "id": "a230",
+      "title": "Ben",
+      "days": "Wednesday",
+      "spec": "Physician",
+      "timeSlot": "8-11am"
+    },
+    {
+      "id": "16bb",
+      "title": "Jeff",
+      "days": "Thursday",
+      "spec": "Psychiatry",
+      "timeSlot": "3pm"
+    },
+    {
+      "id": "eeb5",
+      "title": "Jane",
+      "days": "Friday",
+      "spec": "Oncology",
+      "timeSlot": "10am - 2pm"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naledi Health</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="bg-pink-100 py-1">  
+    
+        <!-- Holds the logo and navigation buttons for health services, log in, sign up and contact -->
+
+        <nav class="container mx-auto flex justify-between items-center">  
+            <img class="w-40 h-20 object-contain" src="images.img/Logo.jpg" alt="Naledi Health Logo">
+            <ul class="flex space-x-4">
+                <li><button class="px-3 py-2 rounded-md text-gray-700 hover:bg-gray-200">Health Services</button></li>
+                <li><button class="px-3 py-2 rounded-md text-gray-700 hover:bg-gray-200">Sign Up</button></li>
+                <li><button class="px-3 py-2 rounded-md text-gray-700 hover:bg-gray-200">Log In</button></li>
+                <li><button class="px-3 py-2 rounded-md text-gray-700 hover:bg-gray-200">Contact Us</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container mx-auto py-12">  
+        <section class="hero mb-12">  
+
+            <h1 class="text-3xl text-center font-bold mb-4">Empowering women through accessible and quality Healthcare.</h1>
+            <img class="w-full rounded-lg object-cover" src="images.img/DWP_5554.jpg" alt="Women at a cancer outreach">
+        </section>
+
+        <section class="vision mb-12"> 
+            <!-- section for the organization's vision statement-->
+            <h2 class="text-2xl font-bold mb-4">Our Vision</h2>
+            <p class="text-gray-700">A future where every woman can make informed decisions about her health and well-being, with the support and resources she needs.</p>
+        </section>
+
+        <section class="services grid grid-cols-1 md:grid-cols-2 gap-4">  
+            <!--to display as a single column on smaller screens and two columns on medium and larger screens-->
+            <div class="service-card bg-white p-4 rounded-md shadow-md">
+                <!-- displays all services provided by our platfrom -->
+
+                <h3 class="text-xl font-bold mb-2">Speak to a Doctor</h3>
+                <button id="loadMore">Load More</button>
+                <div class="hidden" id="schedule">
+                <p id="pTag">To book an appointment on any of the following days, call our toll-free number 020 666 355. All appointments take place from 10am to 2pm.First-time consultations are free, whether in-person or virtual! </p> 
+            
+            </div>
+                
+
+                <img class="w-full h-80 object-cover rounded-lg mb-2" src="images.img/newborn pediatric appointment.jpg" alt="Doctor's visit">
+            </div>
+    
+            <div class="service-card bg-white p-4 rounded-md shadow-md">  
+                <h3 class="text-xl font-bold mb-2">Pharmacy</h3>
+                <button id="meds">Load More</button>
+                <div 
+                    <p class="hidden" id="medicine"></div>Call our toll free number to get a refill on prescribed drugs for common conditions like diabetes and hypertension, and over the counter medication. Get instant sms notification any time we restock the drugs!</p>
+                    <img class="w-full h-80 object-cover rounded-lg mb-2" src="images.img/istockphoto-1603361100-170667a.webp" alt="A happy pharmacist">
+                </div>
+            </div>
+            <section>
+                <form action="">
+                    <input id="doctorName"  type="text" placeholder="Doctor's name">
+                    <input  id="days"  type="text" placeholder="Days">
+                    <input id="speciality"   type="text" placeholder="Specialty"         >
+                    <input id="timeSlot"    type="text" placeholder="Time slot"       >
+                <button type="submit">Submit</button>
+
+                </form>
+
+            </section>
+
+            <div class="service-card bg-white p-4 rounded-md shadow-md">  
+                <h3 class="text-xl font-bold mb-2">Free Health Education</h3>
+                <button id="free">Load More</button>
+                <p class="hidden" id="education">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, ut!</p>
+                <img class="w-full h-80 object-cover rounded-lg mb-2" src="images.img/DWP_5407.jpg" alt="Breast Cancer Awareness">
+            </div>
+
+            <div class="service-card bg-white p-4 rounded-md shadow-md">  
+                <h3 class="text-xl font-bold mb-2">Community Health Forum</h3>
+                <button id="commHealth">Load More</button>
+                <p class="hidden" id="comm">We partner with public and private health institutions to conduct health awareness campaigns. Our activities include :
+                    <ul class="hidden id="table1">
+                        <li>Health talks</li>
+                        <li>Screening for diabetes and hypertension</li>
+                        <li>Cancer screening</li>
+                        <li>HPV Vaccination campaigns</li>
+                    </ul>
+                </p>
+                <img class="w-full h-80 object-cover rounded-lg mb-2" src="images.img/DWP_5513.jpg" alt="Women's Health support groups">
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+        
+    </body>
