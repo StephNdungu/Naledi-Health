@@ -1,13 +1,15 @@
 Naledi Health Website
+https://naledi-health.vercel.app/
 
 This code lays the foundation for a website called Naledi Health, which aims to empower women through accessible healthcare resources and services.
 
 Current Functionality:
 
 The website displays information about Naledi Health's mission and services.
-Users can click a button to reveal the clinical schedule (days and doctors available) for in-person or virtual consultations.
-Planned Functionality (Future Development):
+Healthcare providers can submit information about their speciality, for example family medicine, clinic days as well as available time slots
+Users or patients can click a button(Load more) under 'Speak to a Doctor' to reveal the clinical schedule (days and doctors available) for in-person or virtual consultations.
 
+Planned Functionality (Future Development):
 Users will be able to view additional details for each service, such as medication refills, free health education resources, and community health forum information (currently buttons only, no content).
 The website may integrate with a booking system for appointments or medication refills (not implemented yet).
 Code Structure:
@@ -15,22 +17,23 @@ Code Structure:
 HTML provides the basic structure and content of the website.
 CSS styles the layout and appearance of the website using Tailwind CSS.
 JavaScript adds interactivity to the "Speak to a Doctor" section, revealing the clinical schedule when the "Load More" button is clicked.
+Vercel API deploys the website.
+
 
 Running the Code:
-
 Ensure you have a basic understanding of HTML, CSS, and JavaScript.
 Save the code in separate files (e.g., index.html, style.css, script.js).
 Open index.html in a web browser to view the website.
-Future Development:
 
+Future Development:
 Implement functionalities for additional services (medication refills, health education, forum).
 Develop a user interface for booking appointments or medication refills.
 Consider creating a mobile-friendly version of the website.
+
 Important Notes:
-
-The "Load More" button currently only reveals a pre-defined schedule for doctor consultations. Expand on this functionality to potentially integrate with an appointment booking system.
 The other service buttons ("Buy medication," "Free Health Education," "Community Health Forum") are placeholders and don't have working features yet. You'll need to add content and functionalities for each service.
-Additional Resources:
 
+Additional Resources:
+Sample pitch deck link: https://docs.google.com/presentation/d/12vfpQx454SujtQubxEvxazniTJFF3Ip0SEngG7qdNlc/edit#slide=id.g21bba9d7d35_0_122
 Tailwind CSS documentation: https://tailwindcss.com/docs/installation
 This code provides a starting point for Naledi Health's website. With further development, it can become a valuable resource for women seeking accessible healthcare information and services.
